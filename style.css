@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=Roboto+Slab&family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+#result{
+    width: 332px;
+    border: 3px solid #2F58CD;
+    text-align: right;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: gray;
+  }
+  
+  button {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    background-color: #03001C;
+    color: white;
+    margin: 5px;
+    border-radius: 60%;
+    box-shadow: 3px 3px 5px #D4ADFC;
+  }
+  
+  #operators {
+    color: white;
+    background-color: #2F58CD;
+  }
+  
+  #main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(169, 173, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #calculator{
+    border: 5px solid black;
+    border-radius: 6%;
+    padding: 20px;
+    background-color: #03001C;
+   
+  }
