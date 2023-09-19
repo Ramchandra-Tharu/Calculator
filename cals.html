@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="calculator">
+                <form>
+                    <input type="text" id="result" placeholder="0">
+                </form>
+                <div id="line1">
+                    <button onclick="append('7')">7</button>
+                    <button onclick="append('8')">8</button>
+                    <button onclick="append('9')">9</button>
+                    <button id="operators" onclick="append('/')">/</button>
+                </div>
+                <div id="line2">
+                    <button onclick="append('4')">4</button>
+                    <button onclick="append('5')">5</button>
+                    <button onclick="append('6')">6</button>
+                    <button id="operators" onclick="append('*')">*</button>
+                </div>
+                <div id="line3">
+                    <button onclick="append('1')">1</button>
+                    <button onclick="append('2')">2</button>
+                    <button onclick="append('3')">3</button>
+                    <button id="operators" onclick="append('-')">-</button>
+                </div>
+                <div id="line4">
+                    <button onclick="append('00')">00</button>
+                    <button onclick="append('0')">0</button>
+                    <button onclick="append('.')">.</button>
+                    <button id="operators" onclick="append('+')">+</button>
+                </div>
+                <div id="line5">
+                    <button style="background-color: #4E31AA; color: white;" onclick="clearDisplay()">AC</button>
+                    <button style="background-color: #4E31AA; color: white;" onclick="clearLastDigit()">C</button>
+                    <button id="operators" onclick="calculate()">=</button>
+                    <button id="operators" onclick="append('%')">%</button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
+    <script src="cals.js"></script>
+
+</body>
+
+</html>
